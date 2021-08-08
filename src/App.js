@@ -8,11 +8,11 @@ import Layout from './components/layout/Layout';
 function App() {
   return (
     <Layout>
-    
+
       {/* Switch ?? */}
       <Switch>
-        {/* Route ?? */}
-          <Route path='/' >
+        {/* Route ?? exact?? */}
+          <Route path='/' exact>
             <AllMeetupsPage />
           </Route>
           <Route path='/new-meetup'>
